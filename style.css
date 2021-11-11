@@ -49,6 +49,11 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+color: aquamarine;
+transiton: .9s;
+}
+
 .hero { 
     background-image: url("./straight-road.jpg");
     height: 600px;
