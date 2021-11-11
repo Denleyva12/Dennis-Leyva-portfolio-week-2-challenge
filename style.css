@@ -52,9 +52,8 @@ header nav ul li a {
 .hero { 
     background-image: url("./straight-road.jpg");
     height: 600px;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    position: relative;
 }
 
 .section-title {
@@ -81,6 +80,7 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #fce138;
+    display: inline-block;
   }
 
 .intro p {
@@ -116,6 +116,7 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #fce138;
+    display: inline-block;
 }
 
 .intro p {
@@ -143,13 +144,14 @@ section {
     text-align: center;
 }
 
-.GIT {
+.GIT h2 {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #fce138;
+    display: inline-block;
 }
 
 .intro p {
