@@ -54,6 +54,11 @@ color: aquamarine;
 transiton: .9s;
 }
 
+.beach {
+    height: 200px;
+    width: 150px;
+}
+
 .hero { 
     background-image: url("./straight-road.jpg");
     height: 600px;
@@ -181,4 +186,10 @@ footer {
 
   footer a {
     color: #024e76;
+  }
+
+
+  .project-img:hover {
+    height: 800px;
+    width: 800px;
   }
